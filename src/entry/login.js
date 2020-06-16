@@ -9,8 +9,8 @@ $(function () {
     })
 
     try {
-        abc();
+        let s = abctest + "123";
     } catch (error) {
-        nec_fe_core_tool.error_tool.responseText(error);
+        fe_core_tool.error_tool.responseText(error);
     }
 })
