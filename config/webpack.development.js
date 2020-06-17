@@ -30,8 +30,8 @@ module.exports = {
         inline: true, //检测文件变化，实时构建并刷新浏览器
         port: "9991",
         proxy: {
-            '/accountAPI': {
-                target: 'https://account.nec.lenovouat.com',
+            '/': {
+                target: 'https://live.lenovo.com.cn',
                 // pathRewrite: {
                 //     "^/accountAPI": ""
                 // },
