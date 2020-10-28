@@ -31,7 +31,7 @@ module.exports = {
         port: "9991",
         proxy: {
             '/': {
-                target: 'https://live.lenovo.com.cn',
+                target: '',
                 // pathRewrite: {
                 //     "^/accountAPI": ""
                 // },
