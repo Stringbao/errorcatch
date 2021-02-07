@@ -39,6 +39,6 @@
         "yargs-parser": "^16.1.0"
     },
     "dependencies": {
-        "jquery": "^1.8.3"
+        "jquery": "^3.5.1"
     }
 }
